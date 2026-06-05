@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любовь Гаянова — Репетитор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span id="nav-logo">Любовь Гаянова</span>
+                <span class="logo-sub" id="nav-subtitle">Репетитор</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" id="nav-about">Обо мне</a>
+                <a href="#languages" id="nav-languages">Языки</a>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru" onclick="setLang('ru')">RU</button>
+                    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+                    <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
+                    <button class="lang-btn" data-lang="ko" onclick="setLang('ko')">KO</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-title-outline" id="hero-outline-1">Любовь Гаянова</div>
+            <div class="hero-title-outline" id="hero-outline-2">Любовь Гаянова</div>
+            <h1 class="hero-title"><span id="hero-greeting">Любовь Гаянова</span></h1>
+            <p class="hero-subtitle" id="hero-subtitle">Репетитор иностранных языков</p>
+            <p class="hero-desc" id="hero-desc">Обучаю детей английскому, испанскому, корейскому и русскому языкам. Индивидуальный подход к каждому ученику.</p>
+            <div class="hero-info">
+                <span class="info-badge" id="hero-experience">Обучение с 2018 года</span>
+                <span class="info-badge price-badge" id="hero-price">1000 ₽ / занятие</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="https://t.me/liliubas" target="_blank" class="btn-primary" id="hero-btn">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <span class="dots">• • •</span>
+            <h2 id="about-title">Обо мне</h2>
+        </div>
+        <div class="about-content">
+            <p id="about-text">Меня зовут Любовь Гаянова. Я преподаю иностранные языки детям с 2018 года. Мои ученики успешно сдают экзамены, участвуют в олимпиадах и просто с удовольствием изучают новые языки. На моих занятиях всегда дружелюбная атмосфера, и я нахожу подход к каждому ребёнку. Вместе мы не просто учим слова — мы открываем целые миры!</p>
+        </div>
+    </section>
+
+    <section id="languages" class="skills-section">
+        <div class="section-header">
+            <span class="dots">• • •</span>
+            <h2 id="lang-section-title">Языки</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card lang-card">
+                <div class="skill-icon flag-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="25" width="70" height="50" rx="3" fill="#012169" stroke="#333" stroke-width="1.5"/>
+                        <rect x="15" y="42" width="70" height="16" fill="#fff"/>
+                        <rect x="42" y="25" width="16" height="50" fill="#fff"/>
+                        <rect x="15" y="46" width="70" height="8" fill="#c8102e"/>
+                        <rect x="46" y="25" width="8" height="50" fill="#c8102e"/>
+                    </svg>
+                </div>
+                <h3 class="lang-name">Английский</h3>
+                <p class="lang-desc">Помогу освоить английский с нуля, подтянуть школьную программу и полюбить язык через живое общение и интересные занятия.</p>
+                <span class="badge lang-level">Продвинутый</span>
+            </div>
+
+            <div class="skill-card lang-card">
+                <div class="skill-icon flag-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="25" width="70" height="50" rx="3" fill="#c60b1e" stroke="#333" stroke-width="1.5"/>
+                        <rect x="15" y="25" width="70" height="17" fill="#c60b1e"/>
+                        <rect x="15" y="42" width="70" height="16" fill="#ffc400"/>
+                        <rect x="15" y="58" width="70" height="17" fill="#c60b1e"/>
+                    </svg>
+                </div>
+                <h3 class="lang-name">Испанский</h3>
+                <p class="lang-desc">Научу понимать и говорить на испанском. От базовых правил до уверенного общения — шаг за шагом к результату.</p>
+                <span class="badge lang-level">Продвинутый</span>
+            </div>
+
+            <div class="skill-card lang-card">
+                <div class="skill-icon flag-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="25" width="70" height="50" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+                        <circle cx="50" cy="50" r="14" fill="#fff" stroke="#333" stroke-width="0.5"/>
+                        <path d="M50 36 A14 14 0 0 1 50 64" fill="#c60c30"/>
+                        <path d="M50 36 A14 14 0 0 0 50 64" fill="#003478"/>
+                    </svg>
+                </div>
+                <h3 class="lang-name">Корейский</h3>
+                <p class="lang-desc">Погружение в мир хангыля и корейской культуры. Научимся читать, писать и говорить на одном из самых красивых языков Азии.</p>
+                <span class="badge lang-level">Носитель</span>
+            </div>
+
+            <div class="skill-card lang-card">
+                <div class="skill-icon flag-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="25" width="70" height="50" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+                        <rect x="15" y="25" width="70" height="17" fill="#fff"/>
+                        <rect x="15" y="42" width="70" height="16" fill="#0039a6"/>
+                        <rect x="15" y="58" width="70" height="17" fill="#d52b1e"/>
+                    </svg>
+                </div>
+                <h3 class="lang-name">Русский</h3>
+                <p class="lang-desc">Помогу детям улучшить знание русского языка: грамотное письмо, выразительная речь и любовь к родному слову.</p>
+                <span class="badge lang-level">Носитель</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee reviews-marquee">
+            <div class="marquee-content" id="marquee-content">
+                <span>🌟 Спасибо Любови! Дочка за месяц подтянула английский на твёрдую четвёрку. Очень довольны!</span>
+                <span>✨ Лучший репетитор! Сын теперь сам просит дополнительные занятия по корейскому.</span>
+                <span>💫 Очень терпеливый и внимательный преподаватель. Ребёнок ждёт каждое занятие!</span>
+                <span>⭐ Занимаемся уже полгода — результат виден по оценкам и уверенности ребёнка. Спасибо!</span>
+                <span>🌸 Любовь нашла подход к моему непоседе. Теперь английский — любимый предмет в школе.</span>
+                <span>📚 Прекрасный педагог! Доступно объясняет, много практики, дети реально начинают говорить.</span>
+                <span>🌟 Спасибо Любови! Дочка за месяц подтянула английский на твёрдую четвёрку. Очень довольны!</span>
+                <span>✨ Лучший репетитор! Сын теперь сам просит дополнительные занятия по корейскому.</span>
+                <span>💫 Очень терпеливый и внимательный преподаватель. Ребёнок ждёт каждое занятие!</span>
+                <span>⭐ Занимаемся уже полгода — результат виден по оценкам и уверенности ребёнка. Спасибо!</span>
+                <span>🌸 Любовь нашла подход к моему непоседе. Теперь английский — любимый предмет в школе.</span>
+                <span>📚 Прекрасный педагог! Доступно объясняет, много практики, дети реально начинают говорить.</span>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo" id="footer-title">Любовь Гаянова</div>
+            <p id="footer-subtitle">Репетитор иностранных языков</p>
+            <p class="footer-quote" id="footer-quote">Открываю детям мир языков с 2018 года</p>
+            <div class="footer-links">
+                <a id="footer-tg" href="https://t.me/liliubas" target="_blank">Telegram</a>
+                <a href="https://wa.me/79167057722" target="_blank" id="footer-wa">WhatsApp</a>
+                <span id="footer-kakao">KakaoTalk</span>
+                <a id="footer-email" href="mailto:lyubov.gayanova@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+</body>
+</html>
