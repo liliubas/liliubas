@@ -4,23 +4,22 @@ const translations = {
     hero: {
       greeting: "Любовь Гаянова",
       subtitle: "Репетитор иностранных языков",
-      description: "Обучаю детей английскому, испанскому, корейскому и русскому языкам. Индивидуальный подход к каждому ученику.",
-      experience: "Обучение с 2018 года",
-      price: "1000 ₽ / занятие",
+      description: "Обучаю детей английскому, испанскому и русскому языкам. Индивидуальный подход к каждому ученику.",
+      experience: "Обучение с 2014 года",
+      price: "1500 ₽ / занятие",
       btnContact: "Записаться"
     },
-    about: { title: "Обо мне", text: "Меня зовут Любовь Гаянова. Я преподаю иностранные языки детям с 2018 года. Мои ученики успешно сдают экзамены, участвуют в олимпиадах и просто с удовольствием изучают новые языки. На моих занятиях всегда дружелюбная атмосфера, и я нахожу подход к каждому ребёнку. Вместе мы не просто учим слова — мы открываем целые миры!" },
+    about: { title: "Обо мне", text: "Дипломированный преподаватель иностранных языков и культур. Преподаватель РКИ. Опыт работы с 2014 года" },
     languages: {
       title: "Языки",
       items: [
         { name: "Английский", desc: "Помогу освоить английский с нуля, подтянуть школьную программу и полюбить язык через живое общение и интересные занятия.", level: "Продвинутый" },
         { name: "Испанский", desc: "Научу понимать и говорить на испанском. От базовых правил до уверенного общения — шаг за шагом к результату.", level: "Продвинутый" },
-        { name: "Корейский", desc: "Погружение в мир хангыля и корейской культуры. Научимся читать, писать и говорить на одном из самых красивых языков Азии.", level: "Носитель" },
         { name: "Русский", desc: "Помогу детям улучшить знание русского языка: грамотное письмо, выразительная речь и любовь к родному слову.", level: "Носитель" }
       ]
     },
     reviews: { items: ["🌟 Спасибо Любови! Дочка за месяц подтянула английский на твёрдую четвёрку. Очень довольны!", "✨ Лучший репетитор! Сын теперь сам просит дополнительные занятия по корейскому.", "💫 Очень терпеливый и внимательный преподаватель. Ребёнок ждёт каждое занятие!", "⭐ Занимаемся уже полгода — результат виден по оценкам и уверенности ребёнка. Спасибо!", "🌸 Любовь нашла подход к моему непоседе. Теперь английский — любимый предмет в школе.", "📚 Прекрасный педагог! Доступно объясняет, много практики, дети реально начинают говорить."] },
-    footer: { title: "Любовь Гаянова", subtitle: "Репетитор иностранных языков", quote: "Открываю детям мир языков с 2018 года", tg: "Telegram", wa: "WhatsApp", kakao: "KakaoTalk", email: "Email" }
+    footer: { title: "Любовь Гаянова", subtitle: "Репетитор иностранных языков", quote: "Открываю детям мир языков с 2014 года", tg: "Telegram", wa: "WhatsApp", kakao: "KakaoTalk", email: "Email" }
   },
 
   en: {
@@ -28,12 +27,12 @@ const translations = {
     hero: {
       greeting: "Lyubov Gayanova",
       subtitle: "Foreign Languages Tutor",
-      description: "I teach children English, Spanish, Korean and Russian. Individual approach to every student.",
-      experience: "Teaching since 2018",
-      price: "$12 / lesson",
+      description: "I teach children English, Spanish and Russian. Individual approach to every student.",
+      experience: "Teaching since 2014",
+      price: "$17 / lesson",
       btnContact: "Book a Lesson"
     },
-    about: { title: "About Me", text: "My name is Lyubov Gayanova. I've been teaching foreign languages to children since 2018. My students successfully pass exams, participate in olympiads, and genuinely enjoy learning new languages. My lessons have a friendly atmosphere, and I find an approach to every child. Together we don't just learn words — we discover whole new worlds!" },
+    about: { title: "About Me", text: "Certified teacher of foreign languages and cultures. Teacher of Russian as a foreign language. Work experience since 2014" },
     languages: {
       title: "Languages",
       items: [
